@@ -1,0 +1,11 @@
+framework module textFrameWork {
+  umbrella header "textFrameWork.h"
+
+  export *
+  module * { export * }
+}
+
+module textFrameWork.Swift {
+  header "textFrameWork-Swift.h"
+  requires objc
+}
